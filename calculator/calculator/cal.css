@@ -1,0 +1,39 @@
+body{
+    background-color: #d7d0d0;
+  }
+  .center{
+    text-align: center;
+  }
+  .container{
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 22%;
+    height:85%;
+  }
+  .input{
+   margin: 10px ; 
+    padding: 10px;
+  }
+   .button{ 
+    margin-top: 5px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    padding: 14px;
+    margin-left: 5px;
+    background-color: #dedede;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+        height: 90%;
+      }
+    .button {
+        font-size: 1.2em;
+        padding: 10px;
+      }
+    }
+  
